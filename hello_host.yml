@@ -1,0 +1,5 @@
+- name: Hello Host Sample
+  hosts: all
+  tasks:
+    - name: get and show hostname
+      shell: hostname
